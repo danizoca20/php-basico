@@ -29,6 +29,7 @@ function formatarPreco($preco) {
 
 $totalProdutos = 0;
 $valorTotal = 0;
+$quantidade = count($produtos);
 ?>
 
 <!DOCTYPE html>
@@ -74,5 +75,6 @@ $valorTotal = 0;
     <h2>Resumo do estoque</h2>
     <p>Quantidade total de unidades: <?= $totalProdutos ?></p>
     <p>Valor total do estoque: <?= formatarPreco($valorTotal) ?></p>
+    <p>Produtos cadastrados: <?= $quantidade ?></p>
 </body>
 </html>

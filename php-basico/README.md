@@ -1,13 +1,16 @@
 # PHP Básico
 
+**Curso:** Técnico em Informática  
+**Disciplina:** Programação Web I
+
 Projeto desenvolvido para praticar os fundamentos da linguagem PHP.
 
-## Práticas
+## Projetos
 
-- **01 - Hello World:** apresentação e variáveis.
-- **02 - Data e Hora:** exibição da data, hora e saudação.
-- **03 - Calculadora de IMC:** formulário, cálculo e validação de dados.
-- **04 - Produtos:** arrays, laços de repetição, funções e controle de estoque.
+- **01-hello-world:** primeira página em PHP, variáveis, nome e curso.
+- **02-data-hora:** data, hora e saudação conforme o horário.
+- **03-imc:** calculadora de IMC com formulário e validação.
+- **04-produtos:** lista de produtos, preços, estoque e totais.
 
 ## Tecnologias
 
@@ -15,13 +18,31 @@ Projeto desenvolvido para praticar os fundamentos da linguagem PHP.
 - HTML
 - Laragon
 - Visual Studio Code
+- Git e GitHub
 
 ## Como executar
 
-1. Inicie o Laragon.
-2. Coloque o projeto na pasta `C:\laragon\www\danielle\php-basico`.
-3. Acesse cada prática pelo navegador usando `http://localhost/danielle/php-basico/`.
+1. Inicie o Laragon com a opção Start All.
+2. Abra o projeto no VS Code.
+3. Acesse as páginas pelo navegador:
 
-## Objetivo
+- `http://localhost/danielle/php-basico/01-hello-world/`
+- `http://localhost/danielle/php-basico/02-data-hora/`
+- `http://localhost/danielle/php-basico/03-imc/`
+- `http://localhost/danielle/php-basico/04-produtos/`
 
-Praticar conceitos básicos de PHP por meio de quatro atividades.
+## O que aprendi
+
+- Criar variáveis e exibir informações com PHP.
+- Utilizar condicionais para tomar decisões.
+- Receber e validar dados de formulários.
+- Trabalhar com arrays associativos e `foreach`.
+- Criar funções e formatar valores monetários.
+- Integrar PHP com HTML e publicar projetos com Git e GitHub.
+
+## Soluções alternativas que testei
+
+- Utilizei `if`, `elseif` e `else` para classificar o resultado do IMC.
+- Utilizei `foreach` para percorrer os produtos.
+- Utilizei `number_format()` para formatar os preços.
+- Utilizei `htmlspecialchars()` para exibir textos com segurança.
